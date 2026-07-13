@@ -1,0 +1,15 @@
+NET "clk"      LOC = "C9"  | IOSTANDARD = LVCMOS33;
+NET "clk"      PERIOD = 20ns HIGH 50%;
+
+NET "reset" LOC = "V16" | IOSTANDARD = LVTTL | PULLDOWN ;
+
+NET "an" LOC = "F7" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<0>" LOC = "E7" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<1>" LOC = "B6" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<2>" LOC = "A6" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<3>" LOC = "C5" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<4>" LOC = "D5" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<5>" LOC = "A4" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "sseg<6>" LOC = "B4" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+
+NET "data" LOC = "R7" | IOSTANDARD = LVTTL;
